@@ -4,9 +4,6 @@ print("3- Multiplication")
 print("4- Division")
 option = int(input("choose the operation you wnt to do: "))
 
-
-
-
 if(option in[1,2,3,4]):
     num1 = int(input("enter the first number"))
     num2 = int(input("enter the second number"))
@@ -25,3 +22,4 @@ else:
 
 
 print("the result of the operation is {}".format(result))
+
